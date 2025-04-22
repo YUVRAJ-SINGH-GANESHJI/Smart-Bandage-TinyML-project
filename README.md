@@ -163,6 +163,6 @@ For questions or comments about this project, please contact the authors or open
 ---
 
 <div align="center">
-  <p>Built with 💙 by Team NSUT</p>
+  <p>Built with 💙💖💗💜🖤 </p>
   <p>Department of Computer Science and Engineering, Netaji Subhas University of Technology, Delhi, India</p>
 </div>
