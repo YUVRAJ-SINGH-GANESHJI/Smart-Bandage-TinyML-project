@@ -1,0 +1,110 @@
+{
+    "model_metrics": [
+        {
+            "model_name": "Random Forest",
+            "accuracy": 0.9894,
+            "precision": 0.9893989271789564,
+            "recall": 0.9894,
+            "f1_score": 0.9893977976411595,
+            "inference_time": 6.999588012695312e-06,
+            "confusion_matrix": [
+                [
+                    1412,
+                    0,
+                    16
+                ],
+                [
+                    0,
+                    2033,
+                    8
+                ],
+                [
+                    21,
+                    8,
+                    1502
+                ]
+            ]
+        },
+        {
+            "model_name": "Logistic Regression",
+            "accuracy": 0.9888,
+            "precision": 0.9888026417585876,
+            "recall": 0.9888,
+            "f1_score": 0.9887970625573933,
+            "inference_time": 1.9931793212890624e-07,
+            "confusion_matrix": [
+                [
+                    1411,
+                    0,
+                    17
+                ],
+                [
+                    0,
+                    2034,
+                    7
+                ],
+                [
+                    25,
+                    7,
+                    1499
+                ]
+            ]
+        },
+        {
+            "model_name": "SVM",
+            "accuracy": 0.9888,
+            "precision": 0.9888014746039917,
+            "recall": 0.9888,
+            "f1_score": 0.9888002745158774,
+            "inference_time": 4.384918212890625e-05,
+            "confusion_matrix": [
+                [
+                    1409,
+                    0,
+                    19
+                ],
+                [
+                    0,
+                    2033,
+                    8
+                ],
+                [
+                    22,
+                    7,
+                    1502
+                ]
+            ]
+        },
+        {
+            "model_name": "CNN",
+            "accuracy": 0.9884,
+            "precision": 0.988401793209826,
+            "recall": 0.9884,
+            "f1_score": 0.9883948712984838,
+            "inference_time": 6.63426399230957e-05,
+            "confusion_matrix": [
+                [
+                    1411,
+                    0,
+                    17
+                ],
+                [
+                    0,
+                    2034,
+                    7
+                ],
+                [
+                    26,
+                    8,
+                    1497
+                ]
+            ]
+        }
+    ],
+    "training_times": {
+        "Random Forest": 32.51816654205322,
+        "Logistic Regression": 0.25396728515625,
+        "SVM": 5.991480350494385,
+        "CNN": 34.69552040100098
+    }
+}

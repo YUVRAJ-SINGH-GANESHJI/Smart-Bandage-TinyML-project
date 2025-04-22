@@ -1,0 +1,79 @@
+ML Models Comparison for Smart Bandage Wound Classification
+======================================================================
+
+Overall Performance Comparison:
+----------------------------------------------------------------------
+Model                Accuracy   Precision  Recall     F1 Score   Inference Time (ms)  Training Time (s)   
+Random Forest        0.9894     0.9894     0.9894     0.9894     0.0070               32.5182             
+Logistic Regression  0.9888     0.9888     0.9888     0.9888     0.0002               0.2540              
+SVM                  0.9888     0.9888     0.9888     0.9888     0.0438               5.9915              
+CNN                  0.9884     0.9884     0.9884     0.9884     0.0663               34.6955             
+
+
+Detailed Results by Model:
+======================================================================
+
+Model: Random Forest
+----------------------------------------------------------------------
+Accuracy: 0.9894
+Precision: 0.9894
+Recall: 0.9894
+F1 Score: 0.9894
+Inference Time: 0.0070 ms per sample
+Training Time: 32.5182 seconds
+
+Confusion Matrix:
+           Healthy    Infected   Healing   
+Healthy    1412       0          16        
+Infected   0          2033       8         
+Healing    21         8          1502      
+
+
+Model: Logistic Regression
+----------------------------------------------------------------------
+Accuracy: 0.9888
+Precision: 0.9888
+Recall: 0.9888
+F1 Score: 0.9888
+Inference Time: 0.0002 ms per sample
+Training Time: 0.2540 seconds
+
+Confusion Matrix:
+           Healthy    Infected   Healing   
+Healthy    1411       0          17        
+Infected   0          2034       7         
+Healing    25         7          1499      
+
+
+Model: SVM
+----------------------------------------------------------------------
+Accuracy: 0.9888
+Precision: 0.9888
+Recall: 0.9888
+F1 Score: 0.9888
+Inference Time: 0.0438 ms per sample
+Training Time: 5.9915 seconds
+
+Confusion Matrix:
+           Healthy    Infected   Healing   
+Healthy    1409       0          19        
+Infected   0          2033       8         
+Healing    22         7          1502      
+
+
+Model: CNN
+----------------------------------------------------------------------
+Accuracy: 0.9884
+Precision: 0.9884
+Recall: 0.9884
+F1 Score: 0.9884
+Inference Time: 0.0663 ms per sample
+Training Time: 34.6955 seconds
+
+Confusion Matrix:
+           Healthy    Infected   Healing   
+Healthy    1411       0          17        
+Infected   0          2034       7         
+Healing    26         8          1497      
+
+
